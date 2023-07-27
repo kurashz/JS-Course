@@ -32,3 +32,31 @@ const city = 'Moscow';
 const street = 'K1509';
 const adress = city + ' ' +  street;
 console.log(adress);
+
+// Операторы присваивания
+
+let newAge = 14 + 5;
+newAge += 2; // newAge = newAge + 2; 21
+newAge -= 3; // newAge = newAge - 3; 18
+newAge *= 2; // newAge = newAge * 2; 36
+newAge /= 2; // newAge = newAge / 2; 18
+
+newAge++; // newAge = newAge +1; 19
+newAge--; // newAge = newAge +1; 18
+
+console.log(newAge); 
+
+// Операторы сравнения 
+
+const olegAge = 20;
+console.log(newAge > olegAge); // false
+console.log(newAge >= olegAge); // false
+console.log(newAge < olegAge); // true
+console.log(newAge <= olegAge); // true
+console.log(newAge == olegAge); // false
+
+
+
+
+
+
